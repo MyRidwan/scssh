@@ -1,7 +1,7 @@
 #!/bin/bash
 curl https://raw.githubusercontent.com/myridwan/scssh/main/modul/ins-rclone.sh | bash
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/myridwan/scssh/main/modul/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/myridwan/scssh/ipuk/modul/rclone.conf"
 apt install msmtp-mta ca-certificates bsd-mailx -y
 cat<<EOF>>/etc/msmtprc
 defaults
