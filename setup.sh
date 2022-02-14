@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/myridwan/scssh/main/websocket-python/webs
 cd
 wget https://raw.githubusercontent.com/myridwan/scssh/main/install/ins-wg.sh && chmod +x ins-wg.sh && ./ins-wg.sh
 cd
-wget https://raw.githubusercontent.com/myridwan/scssh/ain/install/ins-ssr.sh && chmod +x ins-ssr.sh && ./ins-ssr.sh
+wget https://raw.githubusercontent.com/myridwan/scssh/main/install/ins-ssr.sh && chmod +x ins-ssr.sh && ./ins-ssr.sh
 cd
 wget https://raw.githubusercontent.com/myridwan/scssh/main/install/ins-ss.sh && chmod +x ins-ss.sh && ./ins-ss.sh
 cd
@@ -86,7 +86,7 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Telegram                : T.me/RocknetStore"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/Rifan_aje"  | tee -a log-install.txt
 echo "------------------Script Mod Ridwan Store | VPN -----------------" | tee -a log-install.txt
 echo ""
 rm -f setup.sh
