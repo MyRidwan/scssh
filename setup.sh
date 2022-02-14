@@ -86,7 +86,7 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Telegram                : T.me/RocknetStore"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/Rifan_aje"  | tee -a log-install.txt
 echo "------------------Script Mod Ridwan Store | VPN -----------------" | tee -a log-install.txt
 echo ""
 rm -f setup.sh
