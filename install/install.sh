@@ -52,7 +52,7 @@ cat> /etc/v2ray/config.json << END
   "inbounds": [
     {
       "protocol": "vmess",
-      "port": 80,
+      "port": 8880,
       "settings": {
         "clients": [
          #default
@@ -114,7 +114,7 @@ cat> /etc/v2ray/tls.json << END
   },
   "inbounds": [
     {
-      "port": 445,
+      "port": 8443,
       "protocol": "vmess",
       "settings": {
         "clients": [
