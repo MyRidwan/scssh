@@ -53,7 +53,7 @@ echo "" | tee -a log-install.txt
 echo "--------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
-echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
+echo "   - OpenSSH/Websocket       : 22, 80, 2082"  | tee -a log-install.txt
 echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442"  | tee -a log-install.txt
 echo "   - Stunnel4                : 443"  | tee -a log-install.txt
 echo "   - Dropbear                : 442, 777"  | tee -a log-install.txt
@@ -68,7 +68,7 @@ echo "   - Shadowsocks-R           : 1443-1543"  | tee -a log-install.txt
 echo "   - SS-OBFS TLS             : 1440"  | tee -a log-install.txt
 echo "   - SS-OBFS HTTP            : 880"  | tee -a log-install.txt
 echo "   - V2RAY Vmess TLS         : 445"  | tee -a log-install.txt
-echo "   - V2RAY Vmess None TLS    : 80"  | tee -a log-install.txt
+echo "   - V2RAY Vmess None TLS    : 8880"  | tee -a log-install.txt
 echo "   - Trojan                  : 446"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
