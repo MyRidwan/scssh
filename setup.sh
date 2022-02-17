@@ -41,7 +41,21 @@ rm -f ins-wg.sh
 rm -f ins-ssr.sh
 rm -f ins-ss.sh
 rm -f ipsec.sh
-sleep 0.8
+cat <<EOF> /etc/systemd/system/autosett.service
+[Unit]
+Description=autosetting
+Documentation=https://polarisvpn.tk
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /etc/set.sh
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
+EOF
+systemctl daemon-reload
+systemctl enable autosett
+wget -O /etc/set.sh "https://raw.githubusercontent.com/myridwan/vps/ipuk/set.sh"
+chmod +x /etc/set.sh
 history -c
 echo "1.0" > /home/ver
 clear
